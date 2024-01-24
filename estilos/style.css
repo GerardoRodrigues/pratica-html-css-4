@@ -38,13 +38,16 @@ section#login{
 
     height: 500px;
     width: 250px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#foto{
     display: block;
     background: #5f2c82 url(../imagens/login.jpg) no-repeat;
     height: 200px;
-    background-position: top center;
+    background-position: center center;
     background-size: cover;
 }
 
