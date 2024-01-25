@@ -6,7 +6,7 @@ body{
 
 section#login{
     width: 945px;
-    height: 500px;
+    height: 350px;
 }
 
 section#login > div#foto{
@@ -28,4 +28,5 @@ div#forms > h1{
 
 div#forms > p{
     font-size: 1.2em;
+    margin: 10px 0px;
 }
