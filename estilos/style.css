@@ -42,6 +42,10 @@ section#login{
     transition-timing-function: ease;
 }
 
+section#login::-webkit-scrollbar{
+    display: none;
+}
+
 section#login > div#foto{
     display: block;
     background: #5f2c82 url(../imagens/login.jpg) no-repeat;
